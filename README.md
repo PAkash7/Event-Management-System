@@ -76,3 +76,46 @@ Requires **Java 8 or later**.
   - 5-Star: ₹2000
   - 3-Star: ₹1200
   - General: ₹800
+
+# Event Management System (Java Swing)
+
+This repository contains a simple Event Management System with **separate interfaces for User and Admin**.
+
+## Features
+
+- 100 rows × 10 seats (1000 seats total).
+- Category by row:
+  - Rows 1–10 → 5-Star
+  - Rows 11–20 → 3-Star
+  - Rows 21–100 → General
+- Each booking stores:
+  - Seat number (row/column)
+  - Name
+  - Lunch availability
+  - Reporting time
+  - Leaving time
+  - Event time
+  - Fare (in ₹)
+- Fares:
+  - 5-Star: ₹2000
+  - 3-Star: ₹1200
+  - General: ₹800
+- **User Panel**:
+  - Can view all seats.
+  - Can book only vacant seats.
+- **Admin Panel**:
+  - Can view all seats.
+  - Can edit/cancel existing bookings.
+  - Can create bookings on any vacant seat.
+
+## How to Compile and Run
+
+1. Open a terminal in the project root:
+
+```bash
+cd EventManagementSystem/src
+javac *.java
+java EventManagementApp
+```
+
+Ensure you are using **Java 8 or later**.
